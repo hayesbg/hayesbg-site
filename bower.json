@@ -1,12 +1,13 @@
 {
-  "name": "foundation-ssg",
-  "version": "1.0.0",
-  "authors": [
-    "ZURB <foundation@zurb.com>"
-  ],
-  "description": "Static site generator for Foundation for Sites.",
+  "name": "hayesbg-site",
+  "description": "Website for Hayes Business Group",
   "main": "gulpfile.js",
-  "license": "MIT",
+  "authors": [
+    "Joey Hayes"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/hayesbg/hayesbg-site",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,8 +16,10 @@
     "tests"
   ],
   "dependencies": {
-    "foundation-sites": "~6.2.0",
-    "motion-ui": "~1.2.2"
-  },
-  "private": true
+    "jquery": "^2.2.3",
+    "sanitize-css": "^3.3.0",
+    "modernizr": "^3.3.1",
+    "bourbon": "^4.2.7",
+    "normalize-css": "^4.1.1"
+  }
 }

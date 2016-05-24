@@ -1,0 +1,76 @@
+<svg id="bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 450">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e2e2e2;
+      }
+
+      .cls-2 {
+        fill: #dcecec;
+      }
+
+      .cls-3 {
+        opacity: 0.15;
+      }
+
+      .cls-4 {
+        fill: #454545;
+      }
+
+      .cls-5 {
+        fill: #1c8584;
+      }
+    </style>
+  </defs>
+  <title>bg</title>
+  <g id="person">
+    <path id="path" class="cls-1" d="M93.89,380.63v21.68H30v-24a30.21,30.21,0,0,1,30-27.86h3.7A30.21,30.21,0,0,1,93.89,380.63Z"/>
+    <circle id="ellipse" class="cls-1" cx="61.95" cy="323.54" r="23.03"/>
+  </g>
+  <g id="person-2">
+    <path id="path-2" class="cls-1" d="M31.89,380.63v21.68H0V350.49H1.72A30.21,30.21,0,0,1,31.89,380.63Z"/>
+    <path id="ellipse-2" class="cls-1" d="M-0.05,300.51a23,23,0,0,1,23,23,23,23,0,0,1-23,23V300.51Z"/>
+  </g>
+  <g id="person-3">
+    <path id="path-3" class="cls-1" d="M159.89,380.63v21.68H96v-24a30.21,30.21,0,0,1,30-27.86h3.7A30.21,30.21,0,0,1,159.89,380.63Z"/>
+    <circle id="ellipse-3" class="cls-1" cx="127.95" cy="323.54" r="23.03"/>
+  </g>
+  <g id="person-4">
+    <path id="path-4" class="cls-1" d="M223.89,380.63v21.68H160v-24a30.21,30.21,0,0,1,30-27.86h3.7A30.21,30.21,0,0,1,223.89,380.63Z"/>
+    <circle id="ellipse-4" class="cls-1" cx="191.95" cy="323.54" r="23.03"/>
+  </g>
+  <g id="person-5">
+    <path id="path-5" class="cls-1" d="M287.89,380.63v21.68H224v-24a30.21,30.21,0,0,1,30-27.86h3.7A30.21,30.21,0,0,1,287.89,380.63Z"/>
+    <circle id="ellipse-5" class="cls-1" cx="255.95" cy="323.54" r="23.03"/>
+  </g>
+  <g id="person-6">
+    <path id="path-6" class="cls-1" d="M320,402.31H288v-24a30.21,30.21,0,0,1,30-27.86h2v51.81Z"/>
+    <path id="ellipse-6" class="cls-1" d="M319.95,346.57a23,23,0,1,1,0-46.06v46.06Z"/>
+  </g>
+  <g id="person-7">
+    <path id="path-7" class="cls-2" d="M128,386.79v21.73H64v-24A30.27,30.27,0,0,1,94.08,356.6h3.71A30.27,30.27,0,0,1,128,386.79Z"/>
+    <circle id="ellipse-7" class="cls-2" cx="96.01" cy="329.59" r="23.08"/>
+  </g>
+  <g id="person-8">
+    <path id="path-8" class="cls-2" d="M192,386.79v21.73H128v-24a30.27,30.27,0,0,1,30.09-27.92h3.71A30.27,30.27,0,0,1,192,386.79Z"/>
+    <circle id="ellipse-8" class="cls-2" cx="160" cy="329.59" r="23.08"/>
+  </g>
+  <g id="person-9">
+    <path id="path-9" class="cls-2" d="M256,386.79v21.73H192v-24a30.27,30.27,0,0,1,30.09-27.92h3.71A30.27,30.27,0,0,1,256,386.79Z"/>
+    <circle id="ellipse-9" class="cls-2" cx="223.99" cy="329.59" r="23.08"/>
+  </g>
+  <g id="person-10">
+    <path id="path-10" class="cls-2" d="M320,386.79v21.73H256v-24a30.27,30.27,0,0,1,30.09-27.92h3.71A30.27,30.27,0,0,1,320,386.79Z"/>
+    <circle id="ellipse-10" class="cls-2" cx="287.99" cy="329.59" r="23.08"/>
+  </g>
+  <g id="person-11">
+    <path id="path-11" class="cls-2" d="M64,386.79v21.73H0v-24A30.27,30.27,0,0,1,30.09,356.6h3.71A30.27,30.27,0,0,1,64,386.79Z"/>
+    <circle id="ellipse-11" class="cls-2" cx="32.01" cy="329.59" r="23.08"/>
+  </g>
+  <g id="product-box" class="cls-3">
+    <path id="path-2-2" data-name="path" class="cls-4" d="M97.78,216.87L166,122.42V161L97.78,255.43V216.87Z"/>
+    <path id="path-2-3" data-name="path-2" class="cls-4" d="M0,204.63L82,220v38.56L0,243.19V204.63Z"/>
+    <path id="path-3-2" data-name="path-3" class="cls-5" d="M0,187.66l88.32,16.59L166,96.67,41.67,73.32,0,131v56.61Z"/>
+  </g>
+  <rect class="cls-2" y="408.52" width="320" height="41.48"/>
+</svg>

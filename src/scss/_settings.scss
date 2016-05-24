@@ -1,0 +1,29 @@
+// // //
+// Main Settings File
+//
+// @Since 1.0.0
+//
+
+// Burbon
+$modular-scale-ratio: $golden;
+$modular-scale-base: 1rem;
+
+// Color Scheme
+$primary-color: #1C8584;
+$secondary-color: #454545;
+
+// Typography
+$font-heading: 'Fira Sans', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+$base-font-size: 100%;
+
+// Media Queries
+$medium: 40em;
+$large: 60em;
+$xlarge: 90em;
+
+// Menu
+$menu-height: 40px;
+
+// Structure
+$gutter: 1.25rem;

@@ -1,0 +1,23 @@
+<svg id="bg_people" data-name="bg people" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 267.95 245.79">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.15;
+      }
+
+      .cls-2 {
+        fill: #454545;
+      }
+
+      .cls-3 {
+        fill: #1c8584;
+      }
+    </style>
+  </defs>
+  <title>bg_box</title>
+  <g class="cls-1">
+    <polygon class="cls-2" points="177.48 190.44 267.95 65.13 267.95 116.29 177.48 241.6 177.48 190.44"/>
+    <polygon class="cls-2" points="0.03 165.22 156.55 194.63 156.55 245.79 0.03 216.38 0.03 165.22"/>
+    <polygon class="cls-3" points="0.03 142.71 164.92 173.7 267.95 30.98 103.06 0 0.03 142.71"/>
+  </g>
+</svg>

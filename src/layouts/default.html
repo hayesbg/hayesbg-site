@@ -1,19 +1,38 @@
-{{!-- This is the base layout for your project, and will be used on every page. --}}
-
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+
+    <title>Hayes Business Group Inc.</title>
+    <meta name="description" content="Offering quality marketing and management services.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300|Open+Sans:700,400,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css" charset="utf-8">
   </head>
+
+
   <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
 
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
+    <div class="site-container">
+      
+      <main class="site-inner">
+        {{> body}}
+      </main>
 
-    <script src="{{root}}assets/js/app.js"></script>
+      {{> footer}}
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="{{root}}/assets/js/app.js"></script>
   </body>
 </html>
