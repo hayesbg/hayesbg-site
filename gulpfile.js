@@ -15,7 +15,8 @@ var PATH = {
   dist: 'dist',
   assets: 'dist/assets',
   sass: [
-    'bower_components/sanitize-css/lib', // NOTE: Due to current `font-size` bug use `normalize.css`.
+    'bower_components/sanitize-css/lib',
+    // NOTE: Due to current `font-size` bug use `normalize.css`.
     'bower_components/normalize-css',
     'bower_components/bourbon/app/assets/stylesheets',
     'src/scss/components',
@@ -39,7 +40,7 @@ var PATH = {
 gulp.task('browserSync', function() {
 	browserSync.init({
     server: 'dist',
-    port:   8000,
+    port:   3000,
     notify: true, // boolean value, Toggle notifications of bsync activity
     open:   false // toggle auotmatic opening of webpage upong bsync starting
     });
@@ -134,7 +135,14 @@ gulp.task('watch', ['browserSync'], function() {
 	gulp.watch('src/scss/**/*.scss', ['compileSass']);
   gulp.watch('src/js/**/*.js', ['concatScripts']).on('change', browserSync.reload);
   gulp.watch('src/imgs/**/*', ['devImages']).on('change', browserSync.reload);
-	gulp.watch(['src/data/**/*', 'src/helpers/**/*', 'src/layouts/**/*', 'src/pages/**/*', 'src/partials/**/*'], ['reloadPages']).on('change', browserSync.reload);
+	gulp.watch([
+    'src/data/**/*',
+    'src/helpers/**/*',
+    'src/layouts/**/*',
+    'src/pages/**/*',
+    'src/partials/**/*'
+  ],
+  ['reloadPages']).on('change', browserSync.reload);
 });
 
 /* Development Task */
@@ -196,4 +204,9 @@ gulp.task('dist', function(cb) {
     'scriptsToProduction',
     cb
   );
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('dist')
+  .pipe($.ghPages());
 });
